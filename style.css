@@ -9,11 +9,33 @@ img{
     border-radius: 15px;
     border-style: double;
     padding: 5px;
-    margin-top: 110px;
+    margin-top: 250px;
 }
 h4{
     font-size: 20px;
 }
 h1{
     font-size: 35px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 150px;
+    right:300px;
+    z-index: 10px;
+    cursor: pointer;
+} 
+.links{
+    float: left;
+    color:black;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 25px;
+} 
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
 }
