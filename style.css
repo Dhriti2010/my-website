@@ -18,15 +18,14 @@ h1{
     font-size: 35px;
 }
 .menu{
-    list-style: none;
-    position: absolute;
+    list-style:none;
+    position: fixed;
     top: 150px;
-    right:300px;
     z-index: 10px;
     cursor: pointer;
 } 
 .links{
-    float: left;
+    float: inherit;
     color:black;
     padding-top:5px;
     padding-bottom: 5px;
@@ -38,4 +37,16 @@ h1{
 .links:hover{
     font-size: 30px;
     text-decoration: underline;
+}
+.line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+} 
+html{
+    scroll-behavior: smooth;
+} 
+a{
+    text-decoration: none;
 }
