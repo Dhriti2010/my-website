@@ -1,6 +1,10 @@
 body{
     text-align: center;
-    background-position: center;
+    
+    
+}
+#home{
+    background-image: url("https://previews.123rf.com/images/rangizzz/rangizzz1704/rangizzz170400013/76945049-spring-background-frame-of-white-blossom-on-old-wooden-board-with-copy-space.jpg");
     background-size: cover;
 }
 img{
@@ -25,7 +29,7 @@ h1{
     cursor: pointer;
 } 
 .links{
-    float: inherit;
+    text-align: left;
     color:black;
     padding-top:5px;
     padding-bottom: 5px;
