@@ -53,4 +53,27 @@ html{
 } 
 a{
     text-decoration: none;
+    margin-bottom: 25px;
+}
+h2{
+    font-size: 25px;
+}
+#contact{
+    background-color: crimson;
+}
+#contact iframe{
+    width:100%;
+} 
+.contact_1 h3{
+    display: inline;
+} 
+.contact_1 a{
+    color: aliceblue;
+    text-shadow: none;
+}
+#apps img{
+    height: 600px;
+}
+#games img{
+    height: 600px;
 }
