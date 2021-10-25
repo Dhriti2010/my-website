@@ -20,23 +20,6 @@ h4{
 }
 h1{
     font-size: 35px;
-}
-.menu{
-    list-style:none;
-    position: fixed;
-    top: 150px;
-    z-index: 10px;
-    cursor: pointer;
-} 
-.links{
-    text-align: left;
-    color:black;
-    padding-top:5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: cursive;
-    font-size: 25px;
 } 
 .links:hover{
     font-size: 30px;
@@ -76,4 +59,12 @@ h2{
 }
 #games img{
     height: 600px;
+} 
+#videos iframe{
+    width:80%;
+} 
+.my_navbar{
+    position:sticky;
+    top:0;
+    z-index: 99999;
 }
